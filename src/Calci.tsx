@@ -35,6 +35,9 @@ class Calci extends Component<any, any> {
     }
    
   };
+
+
+
   render(){
     var { num1, num2 ,symbol,out} = this.state;
       return(
@@ -70,3 +73,58 @@ class Calci extends Component<any, any> {
 }
 
 export default Calci;
+
+
+
+
+
+//getting user input: another type( simply replace the 38-71 code lines instead of below codes)
+
+
+// getting the user input method
+
+// handleInputChange=(key:string,value:string)=>{
+//     this.setState({[key]:value});
+// }
+
+
+
+
+
+//   render(){
+//     var { num1, num2 ,symbol,out} = this.state;
+//       return(
+//           <>
+//           <div className="mainContainer">
+//           <input  type="text" name="first number" placeholder="Enter the Number" value={num1} onChange={event => this.handleInputChange("num1",event.target.value)} />
+//           <br />
+//           <input className="input1" type="text" name="symbol" value={symbol}  onChange={event => this.handleInputChange("symbol",event.target.value)} />
+//           <br /><span className="span">(*Operation Symbol)</span>
+//           <br />
+//           <input  type="text" name="second number" value={num2} placeholder="Enter the Number" onChange={event => this.handleInputChange("num2",event.target.value)} />
+//           <br />
+//           <br />
+//           <button  type="submit" onClick={this.arthOperation}>=</button>
+//           <p>Result is : {out}</p>
+//           </div>
+//           </>
+//       )
+//   }
+
+
+  // get the user input method
+//   updateFValue(F_num:any) {
+//     this.setState({
+//       num1: F_num.target.value
+//     });
+//   }
+//   updateSYValue(SY:any) {
+//     this.setState({
+//       symbol: SY.target.value
+//     });
+//   }
+//   updateSValue(S_num:any) {
+//     this.setState({
+//       num2: S_num.target.value
+//     });
+//   }
