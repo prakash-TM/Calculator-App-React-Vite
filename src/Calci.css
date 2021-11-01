@@ -1,0 +1,41 @@
+.mainContainer {
+    margin: 10% 0 0 35%;
+    text-align: center;
+    background-color: aquamarine;
+    width: 30%;
+    height: 50%;
+    border-radius: 6px;
+    padding: 10px;
+    border: 2px solid black;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.input {
+    border: 2px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.input1 {
+    border: 2px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 7px;
+    margin-right: 9%;
+    width: 20px;
+}
+
+.span {
+    font-size: 12px;
+}
