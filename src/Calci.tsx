@@ -45,7 +45,7 @@ class Calci extends Component<any, any> {
           <div className="mainContainer">
           <input  type="text" name="first number" placeholder="Enter the Number" value={num1} onChange={F_num => this.updateFValue(F_num)} />
           <br />
-          <input className="input1" type="text" name="symbol" value={symbol}  onChange={SY => this.updateSYValue(SY)} /><span className="span">(*Operation Symbol)</span>
+          <input className="input1" type="text" name="symbol" value={symbol}  onChange={SY => this.updateSYValue(SY)} /><span className="span">(Operation Symbols [+ , - , x , /])</span>
           <br />
           <input  type="text" name="second number" value={num2} placeholder="Enter the Number" onChange={S_num => this.updateSValue(S_num)}/>
           <br />
